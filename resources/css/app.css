@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* resources/css/app.css */
+
+.success-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 4;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.5));
+    /* Animasi diulang setiap 5 detik */
+    animation: fill 5s ease-in-out infinite, scale 5s ease-in-out infinite;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    stroke: #22c55e;
+    fill: none;
+    animation: stroke-circle 5s cubic-bezier(0.65, 0, 0.45, 1) infinite;
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke-check 5s cubic-bezier(0.65, 0, 0.45, 1) infinite;
+}
+
+@keyframes stroke-circle {
+    0% { stroke-dashoffset: 166; }
+    15%, 92% { stroke-dashoffset: 0; } /* Selesai menggambar di 15% dari 5 detik */
+    100% { stroke-dashoffset: 166; }
+}
+
+@keyframes stroke-check {
+    0%, 15% { stroke-dashoffset: 48; }
+    25%, 92% { stroke-dashoffset: 0; } /* Selesai menggambar centang di 25% */
+    100% { stroke-dashoffset: 48; }
+}
+
+@keyframes scale {
+    0%, 25% { transform: scale3d(1, 1, 1); }
+    30% { transform: scale3d(1.15, 1.15, 1); } /* Efek pop sedikit lebih awal */
+    35%, 92% { transform: scale3d(1, 1, 1); }
+    100% { transform: scale3d(1, 1, 1); }
+}
+
+@keyframes fill {
+    0%, 10% { box-shadow: inset 0px 0px 0px #22c55e; }
+    20%, 92% { box-shadow: inset 0px 0px 0px 40px #22c55e; }
+    100% { box-shadow: inset 0px 0px 0px #22c55e; }
+}

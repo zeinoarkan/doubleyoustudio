@@ -1,0 +1,700 @@
+npm verb cli C:\laragon\bin\nodejs\node-v18\node.exe C:\laragon\bin\nodejs\node-v18\node_modules\npm\bin\npm-cli.js
+npm info using npm@8.18.0
+npm info using node@v18.8.0
+npm timing npm:load:whichnode Completed in 0ms
+npm timing config:load:defaults Completed in 2ms
+npm timing config:load:file:C:\laragon\bin\nodejs\node-v18\node_modules\npm\npmrc Completed in 2ms
+npm timing config:load:builtin Completed in 2ms
+npm timing config:load:cli Completed in 3ms
+npm timing config:load:env Completed in 2ms
+npm timing config:load:file:C:\laragon\www\doubleyoustudio\.npmrc Completed in 0ms
+npm timing config:load:project Completed in 5ms
+npm timing config:load:file:C:\Users\yogat\.npmrc Completed in 2ms
+npm timing config:load:user Completed in 2ms
+npm timing config:load:file:C:\laragon\bin\nodejs\node-v18\etc\npmrc Completed in 0ms
+npm timing config:load:global Completed in 0ms
+npm timing config:load:validate Completed in 2ms
+npm timing config:load:credentials Completed in 1ms
+npm timing config:load:setEnvs Completed in 1ms
+npm timing config:load Completed in 20ms
+npm timing npm:load:configload Completed in 21ms
+npm timing npm:load:mkdirpcache Completed in 2ms
+npm timing npm:load:mkdirplogs Completed in 1ms
+npm verb title npm install lodash
+npm verb argv "install" "lodash" "--loglevel" "verbose"
+npm timing npm:load:setTitle Completed in 2ms
+npm timing config:load:flatten Completed in 4ms
+npm timing npm:load:display Completed in 9ms
+npm verb logfile logs-max:10 dir:C:\Users\yogat\AppData\Local\npm-cache\_logs
+npm verb logfile C:\Users\yogat\AppData\Local\npm-cache\_logs\2025-12-11T06_41_22_915Z-debug-0.log
+npm timing npm:load:logFile Completed in 15ms
+npm timing npm:load:timers Completed in 0ms
+npm timing npm:load:configScope Completed in 0ms
+npm timing npm:load Completed in 51ms
+npm timing arborist:ctor Completed in 0ms
+npm timing arborist:ctor Completed in 0ms
+npm timing idealTree:init Completed in 18ms
+npm timing idealTree:userRequests Completed in 2ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash 328ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fvite 339ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/vite 139ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fnode 186ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/jiti 101ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/less 82ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss 75ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/sass 119ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/sass-embedded 115ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stylus 101ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/sugarss 98ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/postcss 105ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/terser 103ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tsx 88ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/yaml 79ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/axios 79ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/concurrently 83ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 95ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tailwindcss 236ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 136ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tinyglobby 250ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shell-quote 241ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tree-kill 246ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/proxy-from-env 255ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/picomatch 268ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/form-data 267ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/follow-redirects 278ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/chalk 277ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/fsevents 287ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/picocolors 271ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/fdir 297ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload 281ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/supports-color 295ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/yargs 317ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/rxjs 324ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/esbuild 348ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/rollup 408ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 664ms (cache miss)
+npm timing idealTree:#root Completed in 3472ms
+npm http fetch GET 200 https://registry.npmjs.org/source-map-js 91ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 93ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/magic-string 110ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fremapping 115ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 424ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 453ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 481ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 491ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 512ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 557ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 566ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 586ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 735ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 756ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 773ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 802ms (cache miss)
+npm timing idealTree:node_modules/@tailwindcss/vite Completed in 820ms
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 126ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/detect-libc 140ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 138ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/graceful-fs 146ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 143ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 154ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 150ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 154ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 155ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 163ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tapable 161ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 161ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 157ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 163ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 161ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 165ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 910ms (cache miss)
+npm timing idealTree:node_modules/@tailwindcss/node Completed in 934ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 86ms (cache miss)
+npm timing idealTree:node_modules/@jridgewell/remapping Completed in 92ms
+npm timing idealTree:node_modules/@jridgewell/gen-mapping Completed in 2ms
+npm timing idealTree:node_modules/@jridgewell/sourcemap-codec Completed in 0ms
+npm timing idealTree:node_modules/@jridgewell/trace-mapping Completed in 3ms
+npm timing idealTree:node_modules/@jridgewell/resolve-uri Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide Completed in 19ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-android-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-darwin-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-darwin-x64 Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-freebsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-linux-arm-gnueabihf Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-linux-arm64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-linux-arm64-musl Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-linux-x64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-linux-x64-musl Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-win32-arm64-msvc Completed in 0ms
+npm timing idealTree:node_modules/@tailwindcss/oxide-win32-x64-msvc Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/hasown 73ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/combined-stream 80ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/asynckit 82ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/mime-types 76ms (cache miss)
+npm timing idealTree:node_modules/axios Completed in 91ms
+npm http fetch GET 200 https://registry.npmjs.org/escalade 76ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/cliui 83ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/y18n 96ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has-flag 99ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/get-caller-file 98ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/string-width 100ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ansi-styles 110ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/require-directory 102ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tslib 113ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/yargs-parser 107ms (cache miss)
+npm timing idealTree:node_modules/concurrently Completed in 129ms
+npm http fetch GET 200 https://registry.npmjs.org/color-convert 75ms (cache miss)
+npm timing idealTree:node_modules/chalk Completed in 82ms
+npm http fetch GET 200 https://registry.npmjs.org/color-name 101ms (cache miss)
+npm timing idealTree:node_modules/ansi-styles Completed in 104ms
+npm timing idealTree:node_modules/color-convert Completed in 2ms
+npm timing idealTree:node_modules/color-name Completed in 0ms
+npm timing idealTree:node_modules/enhanced-resolve Completed in 3ms
+npm timing idealTree:node_modules/follow-redirects Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/has-tostringtag 94ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-errors 99ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/get-intrinsic 101ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/delayed-stream 111ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/mime-db 110ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/function-bind 111ms (cache miss)
+npm timing idealTree:node_modules/form-data Completed in 122ms
+npm timing idealTree:node_modules/asynckit Completed in 0ms
+npm timing idealTree:node_modules/combined-stream Completed in 2ms
+npm timing idealTree:node_modules/delayed-stream Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 84ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/math-intrinsics 88ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-object-atoms 89ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has-symbols 91ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-define-property 89ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has-symbols 88ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/gopd 96ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/get-proto 112ms (cache miss)
+npm timing idealTree:node_modules/es-set-tostringtag Completed in 121ms
+npm timing idealTree:node_modules/es-errors Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/dunder-proto 52ms (cache miss)
+npm timing idealTree:node_modules/get-intrinsic Completed in 65ms
+npm timing idealTree:node_modules/call-bind-apply-helpers Completed in 0ms
+npm timing idealTree:node_modules/es-define-property Completed in 0ms
+npm timing idealTree:node_modules/es-object-atoms Completed in 0ms
+npm timing idealTree:node_modules/function-bind Completed in 0ms
+npm timing idealTree:node_modules/get-proto Completed in 2ms
+npm timing idealTree:node_modules/dunder-proto Completed in 0ms
+npm timing idealTree:node_modules/gopd Completed in 0ms
+npm timing idealTree:node_modules/graceful-fs Completed in 0ms
+npm timing idealTree:node_modules/has-symbols Completed in 0ms
+npm timing idealTree:node_modules/has-tostringtag Completed in 0ms
+npm timing idealTree:node_modules/hasown Completed in 0ms
+npm timing idealTree:node_modules/jiti Completed in 0ms
+npm timing idealTree:node_modules/laravel-vite-plugin Completed in 4ms
+npm timing idealTree:node_modules/lightningcss Completed in 17ms
+npm timing idealTree:node_modules/detect-libc Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-android-arm64 Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-darwin-arm64 Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-darwin-x64 Completed in 1ms
+npm timing idealTree:node_modules/lightningcss-freebsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-linux-arm-gnueabihf Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-linux-arm64-gnu Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-linux-arm64-musl Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-linux-x64-gnu Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-linux-x64-musl Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-win32-arm64-msvc Completed in 0ms
+npm timing idealTree:node_modules/lightningcss-win32-x64-msvc Completed in 0ms
+npm timing idealTree:node_modules/lodash Completed in 0ms
+npm timing idealTree:node_modules/magic-string Completed in 0ms
+npm timing idealTree:node_modules/math-intrinsics Completed in 0ms
+npm timing idealTree:node_modules/mime-types Completed in 1ms
+npm timing idealTree:node_modules/mime-db Completed in 0ms
+npm timing idealTree:node_modules/picocolors Completed in 0ms
+npm timing idealTree:node_modules/proxy-from-env Completed in 0ms
+npm timing idealTree:node_modules/rxjs Completed in 1ms
+npm timing idealTree:node_modules/shell-quote Completed in 0ms
+npm timing idealTree:node_modules/source-map-js Completed in 1ms
+npm timing idealTree:node_modules/supports-color Completed in 1ms
+npm timing idealTree:node_modules/has-flag Completed in 0ms
+npm timing idealTree:node_modules/tailwindcss Completed in 0ms
+npm timing idealTree:node_modules/tapable Completed in 0ms
+npm timing idealTree:node_modules/tree-kill Completed in 0ms
+npm timing idealTree:node_modules/tslib Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 133ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 141ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 138ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 327ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 367ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 373ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 375ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 382ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 380ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 378ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 387ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 384ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 391ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@types%2festree 458ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 467ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 469ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 470ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/nanoid 470ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 544ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 556ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 568ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 584ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 610ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 630ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 633ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 642ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 669ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 719ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 750ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 760ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 771ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 811ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 806ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 833ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 851ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 847ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 855ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 862ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 898ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 920ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 951ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 935ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-x64 964ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 982ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 1019ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 1029ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 1091ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 1109ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 1279ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 1289ms (cache miss)
+npm timing idealTree:node_modules/vite Completed in 1329ms
+npm timing idealTree:node_modules/esbuild Completed in 31ms
+npm timing idealTree:node_modules/@esbuild/aix-ppc64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/android-arm Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/android-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/android-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/darwin-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/darwin-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/freebsd-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/freebsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-arm Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-ia32 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-loong64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-mips64el Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-ppc64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-riscv64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-s390x Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/linux-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/netbsd-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/netbsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/openbsd-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/openbsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/openharmony-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/sunos-x64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/win32-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/win32-ia32 Completed in 0ms
+npm timing idealTree:node_modules/@esbuild/win32-x64 Completed in 0ms
+npm timing idealTree:node_modules/fdir Completed in 0ms
+npm timing idealTree:node_modules/fsevents Completed in 0ms
+npm timing idealTree:node_modules/picomatch Completed in 0ms
+npm timing idealTree:node_modules/postcss Completed in 1ms
+npm timing idealTree:node_modules/nanoid Completed in 0ms
+npm timing idealTree:node_modules/rollup Completed in 32ms
+npm timing idealTree:node_modules/@rollup/rollup-android-arm-eabi Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-android-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-darwin-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-darwin-x64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-freebsd-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-freebsd-x64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-arm64-musl Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-x64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-linux-x64-musl Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-openharmony-arm64 Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-win32-x64-gnu Completed in 0ms
+npm timing idealTree:node_modules/@rollup/rollup-win32-x64-msvc Completed in 0ms
+npm timing idealTree:node_modules/@types/estree Completed in 0ms
+npm timing idealTree:node_modules/tinyglobby Completed in 0ms
+npm timing idealTree:node_modules/vite-plugin-full-reload Completed in 2ms
+npm http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 78ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/strip-ansi 80ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/emoji-regex 81ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/wrap-ansi 84ms (cache miss)
+npm timing idealTree:node_modules/yargs Completed in 93ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-regex 73ms (cache miss)
+npm timing idealTree:node_modules/cliui Completed in 79ms
+npm timing idealTree:node_modules/escalade Completed in 0ms
+npm timing idealTree:node_modules/get-caller-file Completed in 0ms
+npm timing idealTree:node_modules/require-directory Completed in 0ms
+npm timing idealTree:node_modules/string-width Completed in 3ms
+npm timing idealTree:node_modules/emoji-regex Completed in 0ms
+npm timing idealTree:node_modules/is-fullwidth-code-point Completed in 0ms
+npm timing idealTree:node_modules/strip-ansi Completed in 2ms
+npm timing idealTree:node_modules/ansi-regex Completed in 0ms
+npm timing idealTree:node_modules/wrap-ansi Completed in 0ms
+npm timing idealTree:node_modules/y18n Completed in 0ms
+npm timing idealTree:node_modules/yargs-parser Completed in 0ms
+npm timing idealTree:node_modules/chalk/node_modules/supports-color Completed in 0ms
+npm timing idealTree:node_modules/vite-plugin-full-reload/node_modules/picomatch Completed in 0ms
+npm timing idealTree:buildDeps Completed in 7688ms
+npm timing idealTree:fixDepFlags Completed in 3ms
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'vite@7.2.7',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.8.0', npm: '8.18.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'laravel-vite-plugin@2.0.1',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.8.0', npm: '8.18.0' }
+npm WARN EBADENGINE }
+npm timing idealTree Completed in 7721ms
+npm timing reify:loadTrees Completed in 7723ms
+npm timing reify:diffTrees Completed in 4ms
+npm timing reify:retireShallow Completed in 0ms
+npm timing reify:createSparse Completed in 107ms
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-wasm32-wasi
+npm timing reifyNode:node_modules/@tailwindcss/oxide-wasm32-wasi Completed in 2ms
+npm timing arborist:ctor Completed in 0ms
+npm timing reify:diffTrees Completed in 1ms
+npm timing reify:loadBundles Completed in 9ms
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-win32-ia32-msvc
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-win32-arm64-msvc
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-openharmony-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-x64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-x64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-s390x-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-riscv64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-riscv64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-ppc64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-loong64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-arm64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-arm64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-arm-musleabihf
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-linux-arm-gnueabihf
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-freebsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-freebsd-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-darwin-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-darwin-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-android-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@rollup\rollup-android-arm-eabi
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\win32-ia32
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\win32-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\sunos-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\openharmony-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\openbsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\openbsd-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\netbsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\netbsd-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-s390x
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-riscv64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-ppc64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-mips64el
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-loong64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-ia32
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\linux-arm
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\freebsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\freebsd-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\darwin-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\darwin-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\android-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\android-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\android-arm
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@esbuild\aix-ppc64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\fsevents
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-win32-arm64-msvc
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-linux-x64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-linux-x64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-linux-arm64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-linux-arm64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-linux-arm-gnueabihf
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-freebsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-darwin-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-darwin-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\lightningcss-android-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-linux-x64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-linux-x64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-linux-arm64-musl
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-freebsd-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-darwin-x64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-darwin-arm64
+npm verb reify failed optional dependency C:\laragon\www\doubleyoustudio\node_modules\@tailwindcss\oxide-android-arm64
+npm timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 45ms
+npm timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 46ms
+npm timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 47ms
+npm timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 47ms
+npm timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/linux-arm Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 48ms
+npm timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 49ms
+npm timing reifyNode:node_modules/@esbuild/android-x64 Completed in 49ms
+npm timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 49ms
+npm timing reifyNode:node_modules/@esbuild/android-arm Completed in 49ms
+npm timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 49ms
+npm timing reifyNode:node_modules/fsevents Completed in 50ms
+npm timing reifyNode:node_modules/lightningcss-win32-arm64-msvc Completed in 49ms
+npm timing reifyNode:node_modules/lightningcss-linux-x64-musl Completed in 49ms
+npm timing reifyNode:node_modules/lightningcss-linux-x64-gnu Completed in 49ms
+npm timing reifyNode:node_modules/lightningcss-linux-arm64-musl Completed in 49ms
+npm timing reifyNode:node_modules/lightningcss-linux-arm64-gnu Completed in 49ms
+npm timing reifyNode:node_modules/lightningcss-linux-arm-gnueabihf Completed in 50ms
+npm timing reifyNode:node_modules/lightningcss-freebsd-x64 Completed in 50ms
+npm timing reifyNode:node_modules/lightningcss-darwin-x64 Completed in 50ms
+npm timing reifyNode:node_modules/lightningcss-darwin-arm64 Completed in 50ms
+npm timing reifyNode:node_modules/lightningcss-android-arm64 Completed in 50ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-win32-arm64-msvc Completed in 48ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-linux-x64-musl Completed in 49ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-linux-x64-gnu Completed in 57ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm64-musl Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm64-gnu Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm-gnueabihf Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-freebsd-x64 Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-darwin-x64 Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-darwin-arm64 Completed in 58ms
+npm timing reifyNode:node_modules/@tailwindcss/oxide-android-arm64 Completed in 58ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 406ms
+npm timing auditReport:getReport Completed in 412ms
+npm timing auditReport:init Completed in 0ms
+npm timing reify:audit Completed in 413ms
+npm http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 476ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 483ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 497ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 533ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 532ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 532ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 535ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 539ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 536ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 533ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 546ms (cache miss)
+npm timing reifyNode:node_modules/wrap-ansi Completed in 659ms
+npm timing reifyNode:node_modules/is-fullwidth-code-point Completed in 806ms
+npm timing reifyNode:node_modules/ansi-regex Completed in 806ms
+npm timing reifyNode:node_modules/strip-ansi Completed in 806ms
+npm timing reifyNode:node_modules/string-width Completed in 806ms
+npm http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 691ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 692ms (cache miss)
+npm timing reifyNode:node_modules/@types/estree Completed in 830ms
+npm timing reifyNode:node_modules/get-caller-file Completed in 865ms
+npm http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 747ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 749ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.2.0.tgz 757ms (cache miss)
+npm timing reifyNode:node_modules/has-flag Completed in 908ms
+npm http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 775ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 788ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 807ms (cache miss)
+npm timing reifyNode:node_modules/require-directory Completed in 954ms
+npm http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 851ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 855ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 840ms (cache miss)
+npm timing reifyNode:node_modules/fdir Completed in 1023ms
+npm timing reifyNode:node_modules/tinyglobby Completed in 1024ms
+npm http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 862ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 859ms (cache miss)
+npm timing reifyNode:node_modules/emoji-regex Completed in 1039ms
+npm http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 865ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 867ms (cache miss)
+npm timing reifyNode:node_modules/picocolors Completed in 1049ms
+npm http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz 934ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 893ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.3.tgz 860ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 898ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 906ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 902ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 902ms (cache miss)
+npm timing reifyNode:node_modules/color-name Completed in 1075ms
+npm http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 906ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 893ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 902ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz 895ms (cache miss)
+npm timing reifyNode:node_modules/cliui Completed in 1092ms
+npm timing reifyNode:node_modules/y18n Completed in 1109ms
+npm http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 940ms (cache miss)
+npm timing reifyNode:node_modules/supports-color Completed in 1106ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 924ms (cache miss)
+npm timing reifyNode:node_modules/mime-types Completed in 1123ms
+npm timing reifyNode:node_modules/combined-stream Completed in 1125ms
+npm http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 964ms (cache miss)
+npm timing reifyNode:node_modules/ansi-styles Completed in 1126ms
+npm timing reifyNode:node_modules/detect-libc Completed in 1147ms
+npm timing reifyNode:node_modules/vite-plugin-full-reload Completed in 1152ms
+npm http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 1014ms (cache miss)
+npm timing reifyNode:node_modules/delayed-stream Completed in 1156ms
+npm timing reifyNode:node_modules/tree-kill Completed in 1156ms
+npm http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 1032ms (cache miss)
+npm timing reifyNode:node_modules/escalade Completed in 1173ms
+npm http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 997ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 998ms (cache miss)
+npm timing reifyNode:node_modules/picomatch Completed in 1176ms
+npm http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 986ms (cache miss)
+npm timing reifyNode:node_modules/mime-db Completed in 1183ms
+npm timing reifyNode:node_modules/graceful-fs Completed in 1186ms
+npm timing reifyNode:node_modules/color-convert Completed in 1192ms
+npm timing reifyNode:node_modules/proxy-from-env Completed in 1193ms
+npm http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz 1085ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 1002ms (cache miss)
+npm timing reifyNode:node_modules/yargs-parser Completed in 1214ms
+npm timing reifyNode:node_modules/chalk Completed in 1209ms
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.17.tgz 994ms (cache miss)
+npm timing reifyNode:node_modules/@tailwindcss/oxide Completed in 1211ms
+npm http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.5.tgz 1026ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 1086ms (cache miss)
+npm timing reifyNode:node_modules/esbuild Completed in 1228ms
+npm timing reifyNode:node_modules/form-data Completed in 1226ms
+npm http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 1069ms (cache miss)
+npm timing reifyNode:node_modules/get-intrinsic Completed in 1232ms
+npm timing reifyNode:node_modules/@jridgewell/resolve-uri Completed in 1232ms
+npm timing reifyNode:node_modules/hasown Completed in 1236ms
+npm timing reifyNode:node_modules/es-define-property Completed in 1237ms
+npm timing reifyNode:node_modules/es-set-tostringtag Completed in 1239ms
+npm http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 1094ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 1111ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 1092ms (cache miss)
+npm timing reifyNode:node_modules/gopd Completed in 1248ms
+npm timing reifyNode:node_modules/tslib Completed in 1257ms
+npm timing reifyNode:node_modules/function-bind Completed in 1257ms
+npm timing reifyNode:node_modules/dunder-proto Completed in 1267ms
+npm timing reifyNode:node_modules/has-symbols Completed in 1286ms
+npm timing reifyNode:node_modules/get-proto Completed in 1291ms
+npm timing reifyNode:node_modules/es-object-atoms Completed in 1299ms
+npm timing reifyNode:node_modules/has-tostringtag Completed in 1310ms
+npm http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 1113ms (cache miss)
+npm timing reifyNode:node_modules/shell-quote Completed in 1351ms
+npm timing reifyNode:node_modules/follow-redirects Completed in 1357ms
+npm http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 1199ms (cache miss)
+npm timing reifyNode:node_modules/asynckit Completed in 1374ms
+npm timing reifyNode:node_modules/tapable Completed in 1381ms
+npm timing reifyNode:node_modules/nanoid Completed in 1394ms
+npm timing reifyNode:node_modules/call-bind-apply-helpers Completed in 1391ms
+npm timing reifyNode:node_modules/es-errors Completed in 1391ms
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.30.2.tgz 1206ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 1221ms (cache miss)
+npm timing reifyNode:node_modules/lightningcss Completed in 1427ms
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.17.tgz 1203ms (cache miss)
+npm timing reifyNode:node_modules/source-map-js Completed in 1432ms
+npm timing reifyNode:node_modules/@tailwindcss/vite Completed in 1437ms
+npm http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 1231ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-2.0.1.tgz 1238ms (cache miss)
+npm timing reifyNode:node_modules/chalk/node_modules/supports-color Completed in 1471ms
+npm timing reifyNode:node_modules/laravel-vite-plugin Completed in 1474ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 1283ms (cache miss)
+npm timing reifyNode:node_modules/@jridgewell/sourcemap-codec Completed in 1488ms
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.17.tgz 1267ms (cache miss)
+npm timing reifyNode:node_modules/@tailwindcss/node Completed in 1496ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 1314ms (cache miss)
+npm timing reifyNode:node_modules/@jridgewell/remapping Completed in 1530ms
+npm timing reifyNode:node_modules/math-intrinsics Completed in 1535ms
+npm http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.53.3.tgz 1418ms (cache miss)
+npm timing reifyNode:node_modules/@rollup/rollup-win32-x64-gnu Completed in 1544ms
+npm http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.3.tgz 1471ms (cache miss)
+npm timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 1593ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 1410ms (cache miss)
+npm timing reifyNode:node_modules/@jridgewell/gen-mapping Completed in 1616ms
+npm http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 1518ms (cache miss)
+npm timing reifyNode:node_modules/postcss Completed in 1649ms
+npm http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 1463ms (cache miss)
+npm timing reifyNode:node_modules/magic-string Completed in 1664ms
+npm http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.17.tgz 1494ms (cache miss)
+npm timing reifyNode:node_modules/@tailwindcss/oxide-win32-x64-msvc Completed in 1689ms
+npm http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.3.tgz 1480ms (cache miss)
+npm timing reifyNode:node_modules/enhanced-resolve Completed in 1695ms
+npm http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 1500ms (cache miss)
+npm timing reifyNode:node_modules/@jridgewell/trace-mapping Completed in 1700ms
+npm http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.17.tgz 1486ms (cache miss)
+npm timing reifyNode:node_modules/tailwindcss Completed in 1703ms
+npm http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 1475ms (cache miss)
+npm timing reifyNode:node_modules/vite-plugin-full-reload/node_modules/picomatch Completed in 1710ms
+npm http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-4.53.3.tgz 1597ms (cache miss)
+npm timing reifyNode:node_modules/rollup Completed in 1732ms
+npm http fetch GET 200 https://registry.npmjs.org/vite/-/vite-7.2.7.tgz 1567ms (cache miss)
+npm timing reifyNode:node_modules/vite Completed in 1793ms
+npm http fetch GET 200 https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz 1643ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz 1681ms (cache miss)
+npm timing reifyNode:node_modules/concurrently Completed in 1867ms
+npm timing reifyNode:node_modules/yargs Completed in 1869ms
+npm http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.2.tgz 1786ms (cache miss)
+npm timing reifyNode:node_modules/lightningcss-win32-x64-msvc Completed in 1925ms
+npm http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz 1838ms (cache miss)
+npm timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 1961ms
+npm http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.13.2.tgz 1757ms (cache miss)
+npm timing reifyNode:node_modules/axios Completed in 1984ms
+npm http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 2056ms (cache miss)
+npm timing reifyNode:node_modules/jiti Completed in 2271ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 2826ms (cache miss)
+npm timing reifyNode:node_modules/lodash Completed in 3046ms
+npm http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz 4155ms (cache miss)
+npm timing reifyNode:node_modules/rxjs Completed in 4343ms
+npm timing reify:unpack Completed in 4351ms
+npm timing reify:unretire Completed in 0ms
+npm timing build:queue Completed in 5ms
+npm timing build:link:node_modules/concurrently Completed in 15ms
+npm timing build:link:node_modules/nanoid Completed in 14ms
+npm timing build:link:node_modules/jiti Completed in 14ms
+npm timing build:link:node_modules/esbuild Completed in 15ms
+npm timing build:link:node_modules/laravel-vite-plugin Completed in 14ms
+npm timing build:link:node_modules/rollup Completed in 14ms
+npm timing build:link:node_modules/vite Completed in 14ms
+npm timing build:link:node_modules/tree-kill Completed in 15ms
+npm timing build:link Completed in 16ms
+npm info run esbuild@0.25.12 postinstall node_modules/esbuild node install.js
+npm info run esbuild@0.25.12 postinstall { code: 0, signal: null }
+npm timing build:run:postinstall:node_modules/esbuild Completed in 277ms
+npm timing build:run:postinstall Completed in 277ms
+npm timing build:deps Completed in 299ms
+npm timing build Completed in 300ms
+npm timing reify:build Completed in 301ms
+npm timing reify:trash Completed in 8ms
+npm timing reify:save Completed in 34ms
+npm timing reify Completed in 12566ms
+npm timing command:install Completed in 12578ms
+npm verb exit 0
+npm timing npm Completed in 12801ms
+npm info ok 
